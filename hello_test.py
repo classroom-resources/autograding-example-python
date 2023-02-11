@@ -1,4 +1,4 @@
-import hello;
+import hello_world as lib;
 
 def test_hello():
-    assert hello.hello_world() == "Hello World!"
+    assert lib.hello_world() == "Hello World!"
